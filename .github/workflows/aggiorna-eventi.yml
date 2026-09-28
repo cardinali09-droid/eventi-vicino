@@ -1,0 +1,36 @@
+name: Aggiorna eventi
+
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Installa dipendenze
+        run: |
+          pip install playwright requests
+          python -m playwright install --with-deps chromium
+
+      - name: Raccogli gli eventi
+        run: python scraper.py
+
+      - name: Salva i dati aggiornati
+        run: |
+          git config user.name "aggiornamento-automatico"
+          git config user.email "actions@users.noreply.github.com"
+          git add eventi.json geocode_cache.json
+          git diff --cached --quiet || git commit -m "Aggiorna eventi"
+          git push
