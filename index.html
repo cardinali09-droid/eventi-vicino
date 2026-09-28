@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#6B1F2A">
+<title>Vicino — eventi nei dintorni</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#EFE8D8; --surface:#FBF8F1; --ink:#241F1A; --soft:#6B6355;
+    --line:rgba(36,31,26,.14); --line2:rgba(36,31,26,.28);
+    --bord:#6B1F2A; --bord-ink:#FBF0EC;
+    --ochre:#97640E; --ochre-bg:#F3E3C4; --teal:#24404A; --teal-bg:#DCE6E8; --clay:#8A3B1E; --clay-bg:#F0DDCF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#1B1815; --surface:#262119; --ink:#F2ECE0; --soft:#B8AF9E;
+      --line:rgba(242,236,224,.14); --line2:rgba(242,236,224,.28);
+      --bord:#D98A96; --bord-ink:#3A0F15;
+      --ochre:#E3B15C; --ochre-bg:#3A2C10; --teal:#9CC1CC; --teal-bg:#1C2B30; --clay:#E39B72; --clay-bg:#3A2317;
+    }
+  }
+  * { box-sizing:border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;
+         padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+  .wrap { max-width:520px; margin:0 auto; padding:26px 18px 56px; }
+  .locrow { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:8px; }
+  .loc { font-size:13px; color:var(--soft); }
+  .gps { border:1px solid var(--line2); background:transparent; color:var(--ink); font:600 12px 'Inter',sans-serif; padding:7px 12px; border-radius:999px; cursor:pointer; white-space:nowrap; }
+  h1 { font-family:'Fraunces',serif; font-weight:600; font-size:30px; line-height:1.15; margin:0 0 6px; }
+  .agg { font-size:12px; color:var(--soft); margin:0 0 18px; }
+  .panel { background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin-bottom:14px; }
+  .label { font-size:13px; color:var(--soft); margin-bottom:8px; display:flex; justify-content:space-between; align-items:baseline; }
+  .label b { font-family:'Fraunces',serif; font-size:20px; color:var(--ink); }
+  input[type=range] { width:100%; accent-color:var(--bord); }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { border:1px solid var(--line2); background:transparent; color:var(--ink); font:500 13px 'Inter',sans-serif; padding:8px 14px; border-radius:999px; cursor:pointer; }
+  .chip.on { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+  input[type=date] { display:none; margin-top:12px; width:100%; padding:10px; border-radius:10px; border:1px solid var(--line2); background:var(--bg); color:var(--ink); font:400 16px 'Inter',sans-serif; }
+  .count { font-size:13px; color:var(--soft); margin:6px 2px 12px; }
+  .count b { color:var(--ink); }
+  .list { display:flex; flex-direction:column; gap:12px; }
+  .card { display:block; text-decoration:none; color:inherit; background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:15px 17px; }
+  a.card:active { border-color:var(--line2); }
+  .top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+  .name { font-family:'Fraunces',serif; font-weight:600; font-size:18px; line-height:1.25; margin:0; }
+  .meta { font-size:13px; color:var(--soft); margin:3px 0 0; }
+  .tag { font-size:11px; font-weight:600; padding:4px 10px; border-radius:999px; white-space:nowrap; }
+  .t-vino { background:var(--bord); color:var(--bord-ink); }
+  .t-musica { background:var(--teal-bg); color:var(--teal); }
+  .t-feste { background:var(--clay-bg); color:var(--clay); }
+  .t-mercati { background:var(--ochre-bg); color:var(--ochre); }
+  .foot { display:flex; justify-content:space-between; align-items:center; margin-top:10px; font-size:12px; color:var(--soft); }
+  .go { color:var(--bord); font-weight:600; }
+  .empty { text-align:center; padding:40px 16px; color:var(--soft); font-size:14px; line-height:1.5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="locrow">
+    <span class="loc" id="loc">Posizione: Perugia (predefinita)</span>
+    <button class="gps" id="gps">Usa il GPS</button>
+  </div>
+  <h1>Cosa succede qui vicino</h1>
+  <p class="agg" id="agg"></p>
+
+  <div class="panel">
+    <div class="label"><span>Raggio di ricerca</span><b id="raggioVal">30 km</b></div>
+    <input type="range" id="raggio" min="2" max="100" value="30">
+    <div class="chips" id="cat" style="margin-top:14px"></div>
+  </div>
+
+  <div class="panel">
+    <div class="label"><span>Quando</span></div>
+    <div class="chips" id="quando"></div>
+    <input type="date" id="dataScelta">
+  </div>
+
+  <div class="panel">
+    <div class="label"><span>Ordina per</span></div>
+    <div class="chips" id="ordine"></div>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div class="list" id="lista"></div>
+</div>
+
+<script>
+  var CATEGORIE = [["tutti","Tutti"],["vino","Vino"],["musica","Musica"],["feste","Feste"],["mercati","Mercati"]];
+  var QUANDO = [["tutte","Tutte le date"],["oggi","Oggi"],["weekend","Questo weekend"],["data","Data specifica"]];
+  var ORDINE = [["distanza","Distanza"],["data","Data"]];
+  var TAG = { vino:"Vino", musica:"Musica", feste:"Feste", mercati:"Mercati" };
+  var state = { raggio:30, categoria:"tutti", quando:"tutte", dataScelta:"", ordine:"distanza",
+                lat:43.1122, lon:12.3888, eventi:[], caricato:false };
+
+  function pad(n){ return String(n).padStart(2,"0"); }
+  function fmt(d){ return d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate()); }
+  function oggi(){ return fmt(new Date()); }
+  function weekend(){
+    var d = new Date(), g = d.getDay(), sat = new Date(d), sun;
+    if (g !== 0 && g !== 6) sat.setDate(d.getDate() + (6 - g));
+    if (g === 0) { sun = new Date(d); } else { sun = new Date(sat); sun.setDate(sat.getDate() + 1); }
+    return { da: fmt(sat), a: fmt(sun) };
+  }
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function haversine(la1, lo1, la2, lo2){
+    var R = 6371, r = function(x){ return x * Math.PI / 180; };
+    var dLa = r(la2 - la1), dLo = r(lo2 - lo1);
+    var a = Math.sin(dLa/2)*Math.sin(dLa/2) + Math.cos(r(la1))*Math.cos(r(la2))*Math.sin(dLo/2)*Math.sin(dLo/2);
+    return 2 * R * Math.asin(Math.sqrt(a));
+  }
+
+  function rangeEvento(e){
+    var i = e.inizio, f = e.fine;
+    if (!i) { var m = (e.data || "").match(/\d{4}-\d{2}-\d{2}/g) || []; i = m[0]; f = m[1] || m[0]; }
+    return { i: i, f: f || i };
+  }
+  function passaData(e){
+    var r = rangeEvento(e); if (!r.i) return false;
+    if (r.f < oggi()) return false; // evento gia' finito
+    if (state.quando === "tutte") return true;
+    var da, a;
+    if (state.quando === "oggi") { da = a = oggi(); }
+    else if (state.quando === "weekend") { var w = weekend(); da = w.da; a = w.a; }
+    else { if (!state.dataScelta) return true; da = a = state.dataScelta; }
+    return r.i <= a && da <= r.f;
+  }
+  function etichettaData(e){
+    var r = rangeEvento(e); if (!r.i) return "";
+    var o = { day:"numeric", month:"short" };
+    var f = function(iso){ return new Date(iso + "T00:00:00").toLocaleDateString("it-IT", o); };
+    return r.i === r.f ? f(r.i) : f(r.i) + " – " + f(r.f);
+  }
+  function altri(e){
+    var t = e.tutti_i_luoghi;
+    if (!t || t.indexOf(",") === -1) return "";
+    return '<p class="meta">In più comuni: ' + esc(t.length > 90 ? t.slice(0, 90) + "…" : t) + '</p>';
+  }
+
+  function chips(id, lista, chiave){
+    var box = document.getElementById(id);
+    lista.forEach(function(v){
+      var b = document.createElement("button");
+      b.className = "chip" + (state[chiave] === v[0] ? " on" : "");
+      b.textContent = v[1]; b.dataset.k = v[0];
+      b.onclick = function(){
+        state[chiave] = v[0];
+        Array.prototype.forEach.call(box.children, function(el){ el.classList.toggle("on", el.dataset.k === v[0]); });
+        if (chiave === "quando") {
+          var inp = document.getElementById("dataScelta");
+          inp.style.display = v[0] === "data" ? "block" : "none";
+          if (v[0] === "data" && !state.dataScelta) { state.dataScelta = oggi(); inp.value = state.dataScelta; }
+        }
+        render();
+      };
+      box.appendChild(b);
+    });
+  }
+  chips("cat", CATEGORIE, "categoria");
+  chips("quando", QUANDO, "quando");
+  chips("ordine", ORDINE, "ordine");
+
+  document.getElementById("dataScelta").onchange = function(){ state.dataScelta = this.value; render(); };
+  document.getElementById("raggio").oninput = function(){
+    state.raggio = Number(this.value);
+    document.getElementById("raggioVal").textContent = state.raggio + " km";
+    render();
+  };
+
+  function usaGPS(){
+    var loc = document.getElementById("loc");
+    if (!navigator.geolocation) { loc.textContent = "GPS non disponibile su questo browser"; return; }
+    loc.textContent = "Cerco la tua posizione…";
+    navigator.geolocation.getCurrentPosition(function(pos){
+      state.lat = pos.coords.latitude; state.lon = pos.coords.longitude;
+      loc.textContent = "Posizione: la tua (GPS)";
+      render();
+    }, function(){
+      loc.textContent = "GPS non concesso: uso Perugia";
+    }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 60000 });
+  }
+  document.getElementById("gps").onclick = usaGPS;
+
+  function urlDati(){
+    var t = Date.now(), lista = [];
+    var h = location.hostname, p = location.pathname.split("/").filter(Boolean);
+    if (/\.github\.io$/.test(h) && p.length) {
+      lista.push("https://raw.githubusercontent.com/" + h.split(".")[0] + "/" + p[0] + "/main/eventi.json?t=" + t);
+    }
+    lista.push("eventi.json?t=" + t);
+    return lista;
+  }
+  async function caricaDati(){
+    var urls = urlDati();
+    for (var i = 0; i < urls.length; i++) {
+      try {
+        var r = await fetch(urls[i], { cache: "no-store" });
+        if (!r.ok) continue;
+        var d = await r.json();
+        state.eventi = Array.isArray(d) ? d : (d.eventi || []);
+        if (d && d.aggiornato) {
+          var quando = new Date(d.aggiornato).toLocaleString("it-IT", { day:"numeric", month:"short", hour:"2-digit", minute:"2-digit" });
+          document.getElementById("agg").textContent = "Dati aggiornati il " + quando;
+        }
+        state.caricato = true;
+        return;
+      } catch (err) { /* provo la sorgente successiva */ }
+    }
+  }
+
+  function render(){
+    var box = document.getElementById("lista");
+    if (!state.caricato) { box.innerHTML = '<div class="empty">Non riesco a caricare gli eventi. Riprova tra un attimo.</div>'; document.getElementById("count").textContent = ""; return; }
+    if (!state.eventi.length) { box.innerHTML = '<div class="empty">Ancora nessun dato: il primo aggiornamento automatico non è ancora terminato.<br>Riprova tra qualche minuto.</div>'; document.getElementById("count").textContent = ""; return; }
+
+    var visibili = state.eventi
+      .filter(function(e){ return state.categoria === "tutti" || e.categoria === state.categoria; })
+      .map(function(e){ return Object.assign({}, e, { dist: haversine(state.lat, state.lon, e.lat, e.lon) }); })
+      .filter(function(e){ return e.dist <= state.raggio && passaData(e); })
+      .sort(function(a, b){ return a.dist - b.dist; });
+
+    // un evento in più comuni compare una volta sola, con il comune più vicino a te
+    var visti = {}, lista = [];
+    visibili.forEach(function(e){
+      var k = e.url || (e.nome + "|" + e.inizio);
+      if (!visti[k]) { visti[k] = 1; lista.push(e); }
+    });
+    if (state.ordine === "data") {
+      lista.sort(function(a, b){
+        var ia = rangeEvento(a).i, ib = rangeEvento(b).i;
+        return ia < ib ? -1 : ia > ib ? 1 : a.dist - b.dist;
+      });
+    }
+
+    document.getElementById("count").innerHTML = "<b>" + lista.length + "</b> event" + (lista.length === 1 ? "o" : "i");
+    if (!lista.length) { box.innerHTML = '<div class="empty">Nessun evento con questi filtri.<br>Prova ad allargare il raggio o a cambiare data.</div>'; return; }
+
+    box.innerHTML = lista.map(function(e){
+      var link = e.url ? e.url.replace("/en/w/", "/it/w/") : "";
+      var corpo =
+        '<div class="top"><div><p class="name">' + esc(e.nome) + '</p>' +
+        '<p class="meta">' + esc(e.luogo) + ' · ' + esc(etichettaData(e)) + '</p>' + altri(e) + '</div>' +
+        '<span class="tag t-' + esc(e.categoria) + '">' + esc(TAG[e.categoria] || e.categoria) + '</span></div>' +
+        '<div class="foot"><span>' + (Math.round(e.dist * 10) / 10) + ' km da te</span>' +
+        (link ? '<span class="go">Apri la pagina →</span>' : '') + '</div>';
+      return link
+        ? '<a class="card" href="' + esc(link) + '" target="_blank" rel="noopener noreferrer">' + corpo + '</a>'
+        : '<div class="card">' + corpo + '</div>';
+    }).join("");
+  }
+
+  caricaDati().then(function(){ render(); usaGPS(); });
+</script>
+</body>
+</html>
