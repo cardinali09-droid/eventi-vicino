@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-29T10:36:29Z",
+ "aggiornato": "2026-09-30T10:26:43Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -483,19 +483,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Season of Light",
-   "categoria": "feste",
-   "luogo": "Amelia",
-   "tutti_i_luoghi": "Amelia",
-   "lat": 42.5535279,
-   "lon": 12.4167756,
-   "inizio": "2026-07-04",
-   "fine": "2026-09-29",
-   "data": "2026-07-04 / 2026-09-29",
-   "url": "https://www.umbriatourism.it/en/w/stagione-di-luce-mostra-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Discovering Mount Subasio",
    "categoria": "feste",
    "luogo": "Assisi",
@@ -558,19 +545,6 @@
    "fine": "2026-10-03",
    "data": "2026-09-19 / 2026-10-03",
    "url": "https://www.umbriatourism.it/en/w/sagra-musicale-umbra-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Palio de San Michele 2026",
-   "categoria": "feste",
-   "luogo": "Bastia Umbra",
-   "tutti_i_luoghi": "Bastia Umbra",
-   "lat": 43.0677554,
-   "lon": 12.5495816,
-   "inizio": "2026-09-19",
-   "fine": "2026-09-29",
-   "data": "2026-09-19 / 2026-09-29",
-   "url": "https://www.umbriatourism.it/en/w/palio-de-san-michele-event",
    "fonte": "umbriatourism.it"
   },
   {
