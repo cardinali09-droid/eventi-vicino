@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-01T10:55:15Z",
+ "aggiornato": "2026-10-02T10:28:56Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -574,19 +574,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Giostra dell'Arme 2026",
-   "categoria": "feste",
-   "luogo": "San Gemini",
-   "tutti_i_luoghi": "San Gemini",
-   "lat": 42.6127014,
-   "lon": 12.5465047,
-   "inizio": "2026-09-26",
-   "fine": "2026-10-11",
-   "data": "2026-09-26 / 2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/giostra-dell-arme-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Dario Fo Pittore: la Bibbia dei Villani 2026/27",
    "categoria": "feste",
    "luogo": "Gubbio",
@@ -597,6 +584,19 @@
    "fine": "2027-04-25",
    "data": "2026-09-26 / 2027-04-25",
    "url": "https://www.umbriatourism.it/en/w/dario-fo-pittore-la-bibbia-dei-villani-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Giostra dell'Arme 2026",
+   "categoria": "feste",
+   "luogo": "San Gemini",
+   "tutti_i_luoghi": "San Gemini",
+   "lat": 42.6127014,
+   "lon": 12.5465047,
+   "inizio": "2026-09-26",
+   "fine": "2026-10-11",
+   "data": "2026-09-26 / 2026-10-11",
+   "url": "https://www.umbriatourism.it/en/w/giostra-dell-arme-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -691,6 +691,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Giove Short Film Festival 2026",
+   "categoria": "feste",
+   "luogo": "Giove",
+   "tutti_i_luoghi": "Giove",
+   "lat": 42.50941,
+   "lon": 12.3247903,
+   "inizio": "2026-10-02",
+   "fine": "2026-10-04",
+   "data": "2026-10-02 / 2026-10-04",
+   "url": "https://www.umbriatourism.it/en/w/giove-short-film-festival-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Gioca Perugia 2026",
    "categoria": "feste",
    "luogo": "Perugia",
@@ -740,19 +753,6 @@
    "fine": "2026-10-10",
    "data": "2026-10-09 / 2026-10-10",
    "url": "https://www.umbriatourism.it/en/w/festival-della-sociologia-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "La Disfida di San Fortunato 2026",
-   "categoria": "feste",
-   "luogo": "Todi",
-   "tutti_i_luoghi": "Todi",
-   "lat": 42.7824434,
-   "lon": 12.4062554,
-   "inizio": "2026-10-09",
-   "fine": "2026-10-14",
-   "data": "2026-10-09 / 2026-10-14",
-   "url": "https://www.umbriatourism.it/en/w/la-disfida-di-san-fortunato-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -818,6 +818,19 @@
    "fine": "2026-10-18",
    "data": "2026-10-09 / 2026-10-18",
    "url": "https://www.umbriatourism.it/en/w/l-opera-dei-vetrai-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "La Disfida di San Fortunato 2026",
+   "categoria": "feste",
+   "luogo": "Todi",
+   "tutti_i_luoghi": "Todi",
+   "lat": 42.7824434,
+   "lon": 12.4062554,
+   "inizio": "2026-10-09",
+   "fine": "2026-10-14",
+   "data": "2026-10-09 / 2026-10-14",
+   "url": "https://www.umbriatourism.it/en/w/la-disfida-di-san-fortunato-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -951,6 +964,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Fiera della Castagna e dei prodotti tipici della montagna 2026",
+   "categoria": "mercati",
+   "luogo": "Montecchio",
+   "tutti_i_luoghi": "Montecchio",
+   "lat": 42.6593441,
+   "lon": 12.2930849,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-25",
+   "data": "2026-10-17 / 2026-10-25",
+   "url": "https://www.umbriatourism.it/en/w/fiera-della-castagna-e-dei-prodotti-tipici-della-montagna-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "La Tartufissima in Bici 2026",
    "categoria": "feste",
    "luogo": "Pietralunga",
@@ -1081,19 +1107,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Salone Nazionale del Tartufo Bianco Pregiato 2026",
-   "categoria": "feste",
-   "luogo": "Città di Castello",
-   "tutti_i_luoghi": "Città di Castello",
-   "lat": 43.4574214,
-   "lon": 12.2403118,
-   "inizio": "2026-10-31",
-   "fine": "2026-11-15",
-   "data": "2026-10-31 / 2026-11-15",
-   "url": "https://www.umbriatourism.it/en/w/salone-nazionale-del-tartufo-bianco-pregiato-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Fiera dei Morti 2026",
    "categoria": "mercati",
    "luogo": "Perugia",
@@ -1104,6 +1117,19 @@
    "fine": "2026-11-05",
    "data": "2026-10-31 / 2026-11-05",
    "url": "https://www.umbriatourism.it/en/w/fiera-dei-morti-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Salone Nazionale del Tartufo Bianco Pregiato 2026",
+   "categoria": "feste",
+   "luogo": "Città di Castello",
+   "tutti_i_luoghi": "Città di Castello",
+   "lat": 43.4574214,
+   "lon": 12.2403118,
+   "inizio": "2026-10-31",
+   "fine": "2026-11-15",
+   "data": "2026-10-31 / 2026-11-15",
+   "url": "https://www.umbriatourism.it/en/w/salone-nazionale-del-tartufo-bianco-pregiato-event",
    "fonte": "umbriatourism.it"
   },
   {
