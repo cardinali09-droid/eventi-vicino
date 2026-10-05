@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-04T10:35:33Z",
+ "aggiornato": "2026-10-05T11:25:33Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -233,32 +233,6 @@
    "fine": "2026-12-31",
    "data": "2026-04-24 / 2026-12-31",
    "url": "https://www.umbriatourism.it/en/w/50-sfumature-di-giallo-a-fumetti-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Franciscus. Fratello in arte 2026",
-   "categoria": "feste",
-   "luogo": "Assisi",
-   "tutti_i_luoghi": "Assisi",
-   "lat": 43.0711952,
-   "lon": 12.6146669,
-   "inizio": "2026-04-24",
-   "fine": "2026-10-04",
-   "data": "2026-04-24 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/franciscus-fratello-in-arte-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Assisi Estate 2026",
-   "categoria": "feste",
-   "luogo": "Assisi",
-   "tutti_i_luoghi": "Assisi",
-   "lat": 43.0711952,
-   "lon": 12.6146669,
-   "inizio": "2026-04-24",
-   "fine": "2026-10-04",
-   "data": "2026-04-24 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/assisi-estate-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -509,19 +483,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "PerSo - Perugia Social Film Festival 2026",
-   "categoria": "feste",
-   "luogo": "Perugia",
-   "tutti_i_luoghi": "Perugia",
-   "lat": 43.1070321,
-   "lon": 12.4029962,
-   "inizio": "2026-09-24",
-   "fine": "2026-10-04",
-   "data": "2026-09-24 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/perso-perugia-social-film-festival-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Lu santo jullare Francesco: Dario Fo tra arte e spiritualità",
    "categoria": "feste",
    "luogo": "Perugia",
@@ -587,19 +548,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Festa della Vendemmia 2026",
-   "categoria": "vino",
-   "luogo": "Penna in Teverina",
-   "tutti_i_luoghi": "Penna in Teverina",
-   "lat": 42.4929518,
-   "lon": 12.3556482,
-   "inizio": "2026-10-02",
-   "fine": "2026-10-04",
-   "data": "2026-10-02 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/festa-della-vendemmia-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Ottobre Trevano 2026",
    "categoria": "feste",
    "luogo": "Trevi",
@@ -626,19 +574,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Corciano Castello di Vino 2026",
-   "categoria": "vino",
-   "luogo": "Corciano",
-   "tutti_i_luoghi": "Corciano",
-   "lat": 43.1290269,
-   "lon": 12.287718,
-   "inizio": "2026-10-02",
-   "fine": "2026-10-04",
-   "data": "2026-10-02 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/corciano-castello-di-vino-events",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Stagione Teatrale Teatro Mancinelli di Orvieto 2026/27",
    "categoria": "feste",
    "luogo": "Orvieto",
@@ -649,58 +584,6 @@
    "fine": "2027-04-17",
    "data": "2026-10-02 / 2027-04-17",
    "url": "https://www.umbriatourism.it/en/w/stagione-teatrale-orvieto-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Amerino Tipico 2026",
-   "categoria": "feste",
-   "luogo": "Amelia",
-   "tutti_i_luoghi": "Amelia",
-   "lat": 42.5535279,
-   "lon": 12.4167756,
-   "inizio": "2026-10-02",
-   "fine": "2026-10-04",
-   "data": "2026-10-02 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/amerino-tipico-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Giove Short Film Festival 2026",
-   "categoria": "feste",
-   "luogo": "Giove",
-   "tutti_i_luoghi": "Giove",
-   "lat": 42.50941,
-   "lon": 12.3247903,
-   "inizio": "2026-10-02",
-   "fine": "2026-10-04",
-   "data": "2026-10-02 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/giove-short-film-festival-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Gioca Perugia 2026",
-   "categoria": "feste",
-   "luogo": "Perugia",
-   "tutti_i_luoghi": "Perugia",
-   "lat": 43.1070321,
-   "lon": 12.4029962,
-   "inizio": "2026-10-03",
-   "fine": "2026-10-04",
-   "data": "2026-10-03 / 2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/gioca-perugia-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Palio dei Terzieri Trevi 2026",
-   "categoria": "feste",
-   "luogo": "Trevi",
-   "tutti_i_luoghi": "Trevi",
-   "lat": 42.8774972,
-   "lon": 12.7474547,
-   "inizio": "2026-10-04",
-   "fine": "2026-10-04",
-   "data": "2026-10-04",
-   "url": "https://www.umbriatourism.it/en/w/palio-dei-terzieri-trevi-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -808,6 +691,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Borgo diVino in tour Spello 2026",
+   "categoria": "vino",
+   "luogo": "Spello",
+   "tutti_i_luoghi": "Spello",
+   "lat": 43.0112491,
+   "lon": 12.6606637,
+   "inizio": "2026-10-09",
+   "fine": "2026-10-11",
+   "data": "2026-10-09 / 2026-10-11",
+   "url": "https://www.umbriatourism.it/en/w/borgo-divino-in-tour-spello-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Festa d'Autunno a Stroncone 2026",
    "categoria": "feste",
    "luogo": "Stroncone",
@@ -818,6 +714,19 @@
    "fine": "2026-10-25",
    "data": "2026-10-10 / 2026-10-25",
    "url": "https://www.umbriatourism.it/en/w/autunno-a-stroncone-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "I Baracconi - Luna Park Perugia 2026",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-10",
+   "fine": "2026-11-22",
+   "data": "2026-10-10 / 2026-11-22",
+   "url": "https://www.umbriatourism.it/en/w/luna-park-perugia-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -896,6 +805,19 @@
    "fine": "2026-10-18",
    "data": "2026-10-16 / 2026-10-18",
    "url": "https://www.umbriatourism.it/en/w/corsa-delle-botti-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Umbria Libri Perugia 2026",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-16",
+   "fine": "2026-10-18",
+   "data": "2026-10-16 / 2026-10-18",
+   "url": "https://www.umbriatourism.it/en/w/umbria-libri-perugia-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -1052,6 +974,32 @@
    "fine": "2026-10-25",
    "data": "2026-10-24 / 2026-10-25",
    "url": "https://www.umbriatourism.it/en/w/sassovivo-wild-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Borgo degli Orrori 2026",
+   "categoria": "feste",
+   "luogo": "Avigliano Umbro",
+   "tutti_i_luoghi": "Avigliano Umbro",
+   "lat": 42.654834,
+   "lon": 12.426165,
+   "inizio": "2026-10-24",
+   "fine": "2026-11-01",
+   "data": "2026-10-24 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/borgo-degli-orrori-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Terni e Narni Horror Fest 2026",
+   "categoria": "feste",
+   "luogo": "Terni\nNarni",
+   "tutti_i_luoghi": "Terni\nNarni",
+   "lat": 42.5070318,
+   "lon": 12.5385361,
+   "inizio": "2026-10-29",
+   "fine": "2026-11-01",
+   "data": "2026-10-29 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/terni-e-narni-horror-fest-event",
    "fonte": "umbriatourism.it"
   },
   {
