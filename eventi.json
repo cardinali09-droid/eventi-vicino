@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-05T11:25:33Z",
+ "aggiornato": "2026-10-06T11:18:26Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -535,19 +535,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Festival dell'Oriente 2026",
-   "categoria": "feste",
-   "luogo": "Bastia Umbra",
-   "tutti_i_luoghi": "Bastia Umbra",
-   "lat": 43.0677554,
-   "lon": 12.5495816,
-   "inizio": "2026-09-27",
-   "fine": "2026-10-05",
-   "data": "2026-09-27 / 2026-10-05",
-   "url": "https://www.umbriatourism.it/en/w/festival-dell-oriente-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Ottobre Trevano 2026",
    "categoria": "feste",
    "luogo": "Trevi",
@@ -688,6 +675,19 @@
    "fine": "2026-10-14",
    "data": "2026-10-09 / 2026-10-14",
    "url": "https://www.umbriatourism.it/en/w/la-disfida-di-san-fortunato-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Questa è acqua 2026",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-09",
+   "fine": "2026-10-11",
+   "data": "2026-10-09 / 2026-10-11",
+   "url": "https://www.umbriatourism.it/en/w/questa-e-acqua-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -873,6 +873,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Festa della Campagna 2026",
+   "categoria": "feste",
+   "luogo": "Sellano",
+   "tutti_i_luoghi": "Sellano",
+   "lat": 42.8883883,
+   "lon": 12.9262871,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-18",
+   "data": "2026-10-17 / 2026-10-18",
+   "url": "https://www.umbriatourism.it/en/w/festa-della-campagna-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "La Tartufissima in Bici 2026",
    "categoria": "feste",
    "luogo": "Pietralunga",
@@ -883,19 +896,6 @@
    "fine": "2026-10-18",
    "data": "2026-10-18",
    "url": "https://www.umbriatourism.it/en/w/la-tartufissima-in-bici-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "La Grande Pedalata lungo la Fascia Olivata Assisi-Spoleto 2026",
-   "categoria": "feste",
-   "luogo": "Trevi\nCampello sul Clitunno",
-   "tutti_i_luoghi": "Trevi\nCampello sul Clitunno",
-   "lat": 42.8685296,
-   "lon": 12.7304565,
-   "inizio": "2026-10-18",
-   "fine": "2026-10-18",
-   "data": "2026-10-18",
-   "url": "https://www.umbriatourism.it/en/w/la-grande-pedalata-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -990,6 +990,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Festa della Castagna 2026",
+   "categoria": "feste",
+   "luogo": "Narni",
+   "tutti_i_luoghi": "Narni",
+   "lat": 42.5195891,
+   "lon": 12.5152257,
+   "inizio": "2026-10-29",
+   "fine": "2026-11-01",
+   "data": "2026-10-29 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/festa-della-castagna-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Terni e Narni Horror Fest 2026",
    "categoria": "feste",
    "luogo": "Terni\nNarni",
@@ -1013,6 +1026,19 @@
    "fine": "2026-11-01",
    "data": "2026-10-30 / 2026-11-01",
    "url": "https://www.umbriatourism.it/en/w/dolci-d-italia-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "La Mangiaunta 2026",
+   "categoria": "feste",
+   "luogo": "Giano dell'Umbria",
+   "tutti_i_luoghi": "Giano dell'Umbria",
+   "lat": 42.8335595,
+   "lon": 12.5777971,
+   "inizio": "2026-10-30",
+   "fine": "2026-11-01",
+   "data": "2026-10-30 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/la-mangiaunta-event",
    "fonte": "umbriatourism.it"
   },
   {
