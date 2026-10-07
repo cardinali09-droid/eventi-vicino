@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-06T11:18:26Z",
+ "aggiornato": "2026-10-07T11:02:28Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -574,6 +574,32 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Pane e Olio 2026",
+   "categoria": "feste",
+   "luogo": "Stroncone",
+   "tutti_i_luoghi": "Stroncone",
+   "lat": 42.502332,
+   "lon": 12.659973,
+   "inizio": "2026-10-03",
+   "fine": "2026-10-25",
+   "data": "2026-10-03 / 2026-10-25",
+   "url": "https://www.umbriatourism.it/en/w/pane-e-olio-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Segnali - Festival delle arti audiovisive e performance 2026",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-07",
+   "fine": "2026-10-10",
+   "data": "2026-10-07 / 2026-10-10",
+   "url": "https://www.umbriatourism.it/en/w/segnali-festival-delle-arti-audiovisive-e-performance-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Festival delle Creature 2026",
    "categoria": "feste",
    "luogo": "Assisi",
@@ -860,19 +886,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Fiera della Castagna e dei prodotti tipici della montagna 2026",
-   "categoria": "mercati",
-   "luogo": "Montecchio",
-   "tutti_i_luoghi": "Montecchio",
-   "lat": 42.6593441,
-   "lon": 12.2930849,
-   "inizio": "2026-10-17",
-   "fine": "2026-10-25",
-   "data": "2026-10-17 / 2026-10-25",
-   "url": "https://www.umbriatourism.it/en/w/fiera-della-castagna-e-dei-prodotti-tipici-della-montagna-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Festa della Campagna 2026",
    "categoria": "feste",
    "luogo": "Sellano",
@@ -886,6 +899,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Fiera della Castagna e dei prodotti tipici della montagna 2026",
+   "categoria": "mercati",
+   "luogo": "Montecchio",
+   "tutti_i_luoghi": "Montecchio",
+   "lat": 42.6593441,
+   "lon": 12.2930849,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-25",
+   "data": "2026-10-17 / 2026-10-25",
+   "url": "https://www.umbriatourism.it/en/w/fiera-della-castagna-e-dei-prodotti-tipici-della-montagna-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "La Tartufissima in Bici 2026",
    "categoria": "feste",
    "luogo": "Pietralunga",
@@ -896,6 +922,19 @@
    "fine": "2026-10-18",
    "data": "2026-10-18",
    "url": "https://www.umbriatourism.it/en/w/la-tartufissima-in-bici-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "La Grande Pedalata lungo la Fascia Olivata Assisi-Spoleto 2026",
+   "categoria": "feste",
+   "luogo": "Trevi\nCampello sul Clitunno",
+   "tutti_i_luoghi": "Trevi\nCampello sul Clitunno",
+   "lat": 42.8685296,
+   "lon": 12.7304565,
+   "inizio": "2026-10-18",
+   "fine": "2026-10-18",
+   "data": "2026-10-18",
+   "url": "https://www.umbriatourism.it/en/w/la-grande-pedalata-event",
    "fonte": "umbriatourism.it"
   },
   {
