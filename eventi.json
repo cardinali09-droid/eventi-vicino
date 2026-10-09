@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-08T11:19:41Z",
+ "aggiornato": "2026-10-09T11:19:37Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -935,6 +935,19 @@
    "fine": "2026-10-18",
    "data": "2026-10-18",
    "url": "https://www.umbriatourism.it/en/w/la-grande-pedalata-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Corsa dei Frantoi 2026",
+   "categoria": "feste",
+   "luogo": "Campello sul Clitunno",
+   "tutti_i_luoghi": "Campello sul Clitunno",
+   "lat": 42.8228682,
+   "lon": 12.7762635,
+   "inizio": "2026-10-18",
+   "fine": "2026-10-18",
+   "data": "2026-10-18",
+   "url": "https://www.umbriatourism.it/en/w/corsa-dei-frantoi-event",
    "fonte": "umbriatourism.it"
   },
   {
