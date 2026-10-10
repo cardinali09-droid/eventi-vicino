@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-09T11:19:37Z",
+ "aggiornato": "2026-10-10T10:35:27Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -912,6 +912,32 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Trekking delle Canapine 2026",
+   "categoria": "feste",
+   "luogo": "Trevi",
+   "tutti_i_luoghi": "Trevi",
+   "lat": 42.8774972,
+   "lon": 12.7474547,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-18",
+   "data": "2026-10-17 / 2026-10-18",
+   "url": "https://www.umbriatourism.it/en/w/trekking-delle-canapine-event-2",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "XXIX Autumn Festival",
+   "categoria": "feste",
+   "luogo": "Monte Santa Maria Tiberina",
+   "tutti_i_luoghi": "Monte Santa Maria Tiberina",
+   "lat": 43.4377812,
+   "lon": 12.1625435,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-18",
+   "data": "2026-10-17 / 2026-10-18",
+   "url": "https://www.umbriatourism.it/en/w/festa-d-autunno-monte-santa-maria-tiberina-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "La Tartufissima in Bici 2026",
    "categoria": "feste",
    "luogo": "Pietralunga",
@@ -1026,6 +1052,19 @@
    "fine": "2026-11-01",
    "data": "2026-10-24 / 2026-11-01",
    "url": "https://www.umbriatourism.it/en/w/borgo-degli-orrori-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Halloween Park - Città della Domenica 2026",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-24",
+   "fine": "2026-11-01",
+   "data": "2026-10-24 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/halloween-park-citta-della-domenica-event",
    "fonte": "umbriatourism.it"
   },
   {
