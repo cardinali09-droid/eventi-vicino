@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-10T10:35:27Z",
+ "aggiornato": "2026-10-11T10:47:11Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -132,6 +132,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Eurochocolate 2026",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-11-13",
+   "fine": "2026-11-22",
+   "data": "2026-11-13 / 2026-11-22",
+   "url": "https://www.umbriatourism.it/en/w/eurochocolate-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Pan Opera Festival 2026",
    "categoria": "musica",
    "luogo": "Panicale",
@@ -155,6 +168,32 @@
    "fine": "2026-10-25",
    "data": "2026-10-23 / 2026-10-25",
    "url": "https://www.umbriatourism.it/en/w/altrocioccolato-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Fiera dei Morti 2026",
+   "categoria": "mercati",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-31",
+   "fine": "2026-11-05",
+   "data": "2026-10-31 / 2026-11-05",
+   "url": "https://www.umbriatourism.it/en/w/fiera-dei-morti-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Salone Nazionale del Tartufo Bianco Pregiato 2026",
+   "categoria": "feste",
+   "luogo": "Città di Castello",
+   "tutti_i_luoghi": "Città di Castello",
+   "lat": 43.4574214,
+   "lon": 12.2403118,
+   "inizio": "2026-10-31",
+   "fine": "2026-11-15",
+   "data": "2026-10-31 / 2026-11-15",
+   "url": "https://www.umbriatourism.it/en/w/salone-nazionale-del-tartufo-bianco-pregiato-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -418,19 +457,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Festival del Sol 2026",
-   "categoria": "feste",
-   "luogo": "Bevagna",
-   "tutti_i_luoghi": "Bevagna",
-   "lat": 42.9340752,
-   "lon": 12.6091209,
-   "inizio": "2026-07-18",
-   "fine": "2026-10-10",
-   "data": "2026-07-18 / 2026-10-10",
-   "url": "https://www.umbriatourism.it/en/w/festival-del-sol-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Aspettando Beethoven 2026",
    "categoria": "feste",
    "luogo": "Terni",
@@ -587,19 +613,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Segnali - Festival delle arti audiovisive e performance 2026",
-   "categoria": "feste",
-   "luogo": "Perugia",
-   "tutti_i_luoghi": "Perugia",
-   "lat": 43.1070321,
-   "lon": 12.4029962,
-   "inizio": "2026-10-07",
-   "fine": "2026-10-10",
-   "data": "2026-10-07 / 2026-10-10",
-   "url": "https://www.umbriatourism.it/en/w/segnali-festival-delle-arti-audiovisive-e-performance-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Festival delle Creature 2026",
    "categoria": "feste",
    "luogo": "Assisi",
@@ -610,19 +623,6 @@
    "fine": "2026-10-11",
    "data": "2026-10-09 / 2026-10-11",
    "url": "https://www.umbriatourism.it/en/w/festival-of-the-creatures-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Festival della Sociologia 2026",
-   "categoria": "feste",
-   "luogo": "Narni",
-   "tutti_i_luoghi": "Narni",
-   "lat": 42.5195891,
-   "lon": 12.5152257,
-   "inizio": "2026-10-09",
-   "fine": "2026-10-10",
-   "data": "2026-10-09 / 2026-10-10",
-   "url": "https://www.umbriatourism.it/en/w/festival-della-sociologia-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -977,19 +977,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Festa dei Frantoi e dei Castelli 2026",
-   "categoria": "feste",
-   "luogo": "Campello sul Clitunno",
-   "tutti_i_luoghi": "Campello sul Clitunno",
-   "lat": 42.8228682,
-   "lon": 12.7762635,
-   "inizio": "2026-10-18",
-   "fine": "2026-11-08",
-   "data": "2026-10-18 / 2026-11-08",
-   "url": "https://www.umbriatourism.it/en/w/festa-dei-frantoi-e-dei-castelli-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Moto Giro dei Frantoi Aperti 2026",
    "categoria": "feste",
    "luogo": "Foligno",
@@ -1000,6 +987,19 @@
    "fine": "2026-11-15",
    "data": "2026-10-18 / 2026-11-15",
    "url": "https://www.umbriatourism.it/en/w/moto-giro-dei-frantoi-aperti-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Festa dei Frantoi e dei Castelli 2026",
+   "categoria": "feste",
+   "luogo": "Campello sul Clitunno",
+   "tutti_i_luoghi": "Campello sul Clitunno",
+   "lat": 42.8228682,
+   "lon": 12.7762635,
+   "inizio": "2026-10-18",
+   "fine": "2026-11-08",
+   "data": "2026-10-18 / 2026-11-08",
+   "url": "https://www.umbriatourism.it/en/w/festa-dei-frantoi-e-dei-castelli-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -1130,32 +1130,6 @@
    "fine": "2027-04-29",
    "data": "2026-10-31 / 2027-04-29",
    "url": "https://www.umbriatourism.it/en/w/teatro-lyrick-stagione-teatrale-event-1",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Fiera dei Morti 2026",
-   "categoria": "mercati",
-   "luogo": "Perugia",
-   "tutti_i_luoghi": "Perugia",
-   "lat": 43.1070321,
-   "lon": 12.4029962,
-   "inizio": "2026-10-31",
-   "fine": "2026-11-05",
-   "data": "2026-10-31 / 2026-11-05",
-   "url": "https://www.umbriatourism.it/en/w/fiera-dei-morti-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Salone Nazionale del Tartufo Bianco Pregiato 2026",
-   "categoria": "feste",
-   "luogo": "Città di Castello",
-   "tutti_i_luoghi": "Città di Castello",
-   "lat": 43.4574214,
-   "lon": 12.2403118,
-   "inizio": "2026-10-31",
-   "fine": "2026-11-15",
-   "data": "2026-10-31 / 2026-11-15",
-   "url": "https://www.umbriatourism.it/en/w/salone-nazionale-del-tartufo-bianco-pregiato-event",
    "fonte": "umbriatourism.it"
   },
   {
