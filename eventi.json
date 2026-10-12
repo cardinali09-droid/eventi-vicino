@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-11T10:47:11Z",
+ "aggiornato": "2026-10-12T11:53:01Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -379,19 +379,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Estate in città 2026",
-   "categoria": "feste",
-   "luogo": "Città di Castello",
-   "tutti_i_luoghi": "Città di Castello",
-   "lat": 43.4574214,
-   "lon": 12.2403118,
-   "inizio": "2026-06-09",
-   "fine": "2026-10-11",
-   "data": "2026-06-09 / 2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/estate-in-citta-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Francesco, mi taglierei i capelli per te? 2026/2027",
    "categoria": "feste",
    "luogo": "Perugia",
@@ -522,19 +509,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Festa delle Salvie 2026",
-   "categoria": "feste",
-   "luogo": "Assisi",
-   "tutti_i_luoghi": "Assisi",
-   "lat": 43.0711952,
-   "lon": 12.6146669,
-   "inizio": "2026-09-26",
-   "fine": "2026-10-11",
-   "data": "2026-09-26 / 2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/festa-delle-salvie-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Dario Fo Pittore: la Bibbia dei Villani 2026/27",
    "categoria": "feste",
    "luogo": "Gubbio",
@@ -545,19 +519,6 @@
    "fine": "2027-04-25",
    "data": "2026-09-26 / 2027-04-25",
    "url": "https://www.umbriatourism.it/en/w/dario-fo-pittore-la-bibbia-dei-villani-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Giostra dell'Arme 2026",
-   "categoria": "feste",
-   "luogo": "San Gemini",
-   "tutti_i_luoghi": "San Gemini",
-   "lat": 42.6127014,
-   "lon": 12.5465047,
-   "inizio": "2026-09-26",
-   "fine": "2026-10-11",
-   "data": "2026-09-26 / 2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/giostra-dell-arme-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -610,19 +571,6 @@
    "fine": "2026-10-25",
    "data": "2026-10-03 / 2026-10-25",
    "url": "https://www.umbriatourism.it/en/w/pane-e-olio-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Festival delle Creature 2026",
-   "categoria": "feste",
-   "luogo": "Assisi",
-   "tutti_i_luoghi": "Assisi",
-   "lat": 43.0711952,
-   "lon": 12.6146669,
-   "inizio": "2026-10-09",
-   "fine": "2026-10-11",
-   "data": "2026-10-09 / 2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/festival-of-the-creatures-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -704,32 +652,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "Questa è acqua 2026",
-   "categoria": "feste",
-   "luogo": "Perugia",
-   "tutti_i_luoghi": "Perugia",
-   "lat": 43.1070321,
-   "lon": 12.4029962,
-   "inizio": "2026-10-09",
-   "fine": "2026-10-11",
-   "data": "2026-10-09 / 2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/questa-e-acqua-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Borgo diVino in tour Spello 2026",
-   "categoria": "vino",
-   "luogo": "Spello",
-   "tutti_i_luoghi": "Spello",
-   "lat": 43.0112491,
-   "lon": 12.6606637,
-   "inizio": "2026-10-09",
-   "fine": "2026-10-11",
-   "data": "2026-10-09 / 2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/borgo-divino-in-tour-spello-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Festa d'Autunno a Stroncone 2026",
    "categoria": "feste",
    "luogo": "Stroncone",
@@ -753,19 +675,6 @@
    "fine": "2026-11-22",
    "data": "2026-10-10 / 2026-11-22",
    "url": "https://www.umbriatourism.it/en/w/luna-park-perugia-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Granfondo del Montefeltro 2026",
-   "categoria": "feste",
-   "luogo": "Gubbio",
-   "tutti_i_luoghi": "Gubbio",
-   "lat": 43.3517605,
-   "lon": 12.5772959,
-   "inizio": "2026-10-11",
-   "fine": "2026-10-11",
-   "data": "2026-10-11",
-   "url": "https://www.umbriatourism.it/en/w/granfondo-del-montefeltro-event",
    "fonte": "umbriatourism.it"
   },
   {
