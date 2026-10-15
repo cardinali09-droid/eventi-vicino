@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-14T09:27:44Z",
+ "aggiornato": "2026-10-15T09:06:50Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -194,6 +194,19 @@
    "fine": "2026-10-25",
    "data": "2026-10-23 / 2026-10-25",
    "url": "https://www.umbriatourism.it/en/w/altrocioccolato-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Fiera dei Morti 2026",
+   "categoria": "mercati",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-31",
+   "fine": "2026-11-05",
+   "data": "2026-10-31 / 2026-11-05",
+   "url": "https://www.umbriatourism.it/en/w/fiera-dei-morti-event",
    "fonte": "umbriatourism.it"
   },
   {
@@ -639,19 +652,6 @@
    "fonte": "umbriatourism.it"
   },
   {
-   "nome": "La Disfida di San Fortunato 2026",
-   "categoria": "feste",
-   "luogo": "Todi",
-   "tutti_i_luoghi": "Todi",
-   "lat": 42.7824434,
-   "lon": 12.4062554,
-   "inizio": "2026-10-09",
-   "fine": "2026-10-14",
-   "data": "2026-10-09 / 2026-10-14",
-   "url": "https://www.umbriatourism.it/en/w/la-disfida-di-san-fortunato-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
    "nome": "Festa d'Autunno a Stroncone 2026",
    "categoria": "feste",
    "luogo": "Stroncone",
@@ -847,6 +847,45 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Castello Errante - Residenza Internazionale del Cinema 2026",
+   "categoria": "feste",
+   "luogo": "Castiglione del Lago",
+   "tutti_i_luoghi": "Castiglione del Lago",
+   "lat": 43.127155,
+   "lon": 12.0452096,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-31",
+   "data": "2026-10-17 / 2026-10-31",
+   "url": "https://www.umbriatourism.it/en/w/castello-errante-residenza-internazionale-del-cinema-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Castello Errante - Residenza Internazionale del Cinema 2026",
+   "categoria": "feste",
+   "luogo": "Castiglione del Lago",
+   "tutti_i_luoghi": "Castiglione del Lago",
+   "lat": 43.127155,
+   "lon": 12.0452096,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-31",
+   "data": "2026-10-17 / 2026-10-31",
+   "url": "https://www.umbriatourism.it/en/w/castello-errante-residenza-internazionale-del-cinema-event-1",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Foligno Fantasy Festival 2026",
+   "categoria": "feste",
+   "luogo": "Foligno",
+   "tutti_i_luoghi": "Foligno",
+   "lat": 42.9559744,
+   "lon": 12.7034782,
+   "inizio": "2026-10-17",
+   "fine": "2026-10-17",
+   "data": "2026-10-17",
+   "url": "https://www.umbriatourism.it/en/w/foligno-fantasy-festival-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Amololio 2026",
    "categoria": "feste",
    "luogo": "Montefalco",
@@ -990,6 +1029,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Camminata tra gli olivi 2026",
+   "categoria": "feste",
+   "luogo": "Spoleto",
+   "tutti_i_luoghi": "Spoleto",
+   "lat": 42.7342971,
+   "lon": 12.7382035,
+   "inizio": "2026-10-25",
+   "fine": "2026-10-25",
+   "data": "2026-10-25",
+   "url": "https://www.umbriatourism.it/en/w/camminata-tra-gli-olivi-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Festa della Castagna 2026",
    "categoria": "feste",
    "luogo": "Narni",
@@ -1042,6 +1094,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Olea Mevaniae 2026",
+   "categoria": "feste",
+   "luogo": "Bevagna",
+   "tutti_i_luoghi": "Bevagna",
+   "lat": 42.9340752,
+   "lon": 12.6091209,
+   "inizio": "2026-10-30",
+   "fine": "2026-11-01",
+   "data": "2026-10-30 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/olea-mevaniae-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Teatro Lyrick - 2026/2027 Theatre Season",
    "categoria": "feste",
    "luogo": "Assisi",
@@ -1052,19 +1117,6 @@
    "fine": "2027-04-29",
    "data": "2026-10-31 / 2027-04-29",
    "url": "https://www.umbriatourism.it/en/w/teatro-lyrick-stagione-teatrale-event-1",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "Fiera dei Morti 2026",
-   "categoria": "mercati",
-   "luogo": "Perugia",
-   "tutti_i_luoghi": "Perugia",
-   "lat": 43.1070321,
-   "lon": 12.4029962,
-   "inizio": "2026-10-31",
-   "fine": "2026-11-05",
-   "data": "2026-10-31 / 2026-11-05",
-   "url": "https://www.umbriatourism.it/en/w/fiera-dei-morti-event",
    "fonte": "umbriatourism.it"
   },
   {
