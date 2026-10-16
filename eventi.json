@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-15T09:06:50Z",
+ "aggiornato": "2026-10-16T09:00:03Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -574,6 +574,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Full Program",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-10-02",
+   "fine": "2027-01-06",
+   "data": "2026-10-02 / 2027-01-06",
+   "url": "https://www.umbriatourism.it/en/w/autunno-a-perugia-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Pane e Olio 2026",
    "categoria": "feste",
    "luogo": "Stroncone",
@@ -909,19 +922,6 @@
    "fine": "2026-10-18",
    "data": "2026-10-18",
    "url": "https://www.umbriatourism.it/en/w/la-tartufissima-in-bici-event",
-   "fonte": "umbriatourism.it"
-  },
-  {
-   "nome": "La Grande Pedalata lungo la Fascia Olivata Assisi-Spoleto 2026",
-   "categoria": "feste",
-   "luogo": "Trevi\nCampello sul Clitunno",
-   "tutti_i_luoghi": "Trevi\nCampello sul Clitunno",
-   "lat": 42.8685296,
-   "lon": 12.7304565,
-   "inizio": "2026-10-18",
-   "fine": "2026-10-18",
-   "data": "2026-10-18",
-   "url": "https://www.umbriatourism.it/en/w/la-grande-pedalata-event",
    "fonte": "umbriatourism.it"
   },
   {
