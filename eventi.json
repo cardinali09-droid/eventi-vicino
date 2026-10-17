@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-16T09:00:03Z",
+ "aggiornato": "2026-10-17T08:32:00Z",
  "eventi": [
   {
    "nome": "62° Mostra Mercato del Sedano Nero 2026",
@@ -483,6 +483,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Grandi fotografi per l’Umbria 2026",
+   "categoria": "feste",
+   "luogo": "Perugia",
+   "tutti_i_luoghi": "Perugia",
+   "lat": 43.1070321,
+   "lon": 12.4029962,
+   "inizio": "2026-09-18",
+   "fine": "2026-11-01",
+   "data": "2026-09-18 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/grandi-fotografi-per-l-umbria-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Stagione Sanfra 2026/27",
    "categoria": "feste",
    "luogo": "Perugia",
@@ -925,6 +938,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "La Grande Pedalata lungo la Fascia Olivata Assisi-Spoleto 2026",
+   "categoria": "feste",
+   "luogo": "Trevi\nCampello sul Clitunno",
+   "tutti_i_luoghi": "Trevi\nCampello sul Clitunno",
+   "lat": 42.8685296,
+   "lon": 12.7304565,
+   "inizio": "2026-10-18",
+   "fine": "2026-10-18",
+   "data": "2026-10-18",
+   "url": "https://www.umbriatourism.it/en/w/la-grande-pedalata-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "Corsa dei Frantoi 2026",
    "categoria": "feste",
    "luogo": "Campello sul Clitunno",
@@ -964,6 +990,19 @@
    "fonte": "umbriatourism.it"
   },
   {
+   "nome": "Colori et Olio 2026",
+   "categoria": "feste",
+   "luogo": "Todi",
+   "tutti_i_luoghi": "Todi",
+   "lat": 42.7824434,
+   "lon": 12.4062554,
+   "inizio": "2026-10-18",
+   "fine": "2026-11-01",
+   "data": "2026-10-18 / 2026-11-01",
+   "url": "https://www.umbriatourism.it/en/w/colori-et-olio-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
    "nome": "KUM! Festival 2026",
    "categoria": "feste",
    "luogo": "Perugia",
@@ -987,6 +1026,32 @@
    "fine": "2026-10-25",
    "data": "2026-10-23 / 2026-10-25",
    "url": "https://www.umbriatourism.it/en/w/oktobierfest-acquasparta-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Sagra della Castagna 2026",
+   "categoria": "feste",
+   "luogo": "Città di Castello",
+   "tutti_i_luoghi": "Città di Castello",
+   "lat": 43.4574214,
+   "lon": 12.2403118,
+   "inizio": "2026-10-23",
+   "fine": "2026-10-25",
+   "data": "2026-10-23 / 2026-10-25",
+   "url": "https://www.umbriatourism.it/en/w/sagra-della-castagna-di-morra-di-citta-di-castello-event",
+   "fonte": "umbriatourism.it"
+  },
+  {
+   "nome": "Sapori d'autunno 2026",
+   "categoria": "feste",
+   "luogo": "Attigliano",
+   "tutti_i_luoghi": "Attigliano",
+   "lat": 42.5143337,
+   "lon": 12.2925076,
+   "inizio": "2026-10-23",
+   "fine": "2026-10-25",
+   "data": "2026-10-23 / 2026-10-25",
+   "url": "https://www.umbriatourism.it/en/w/sapori-d-autunno-event",
    "fonte": "umbriatourism.it"
   },
   {
