@@ -1,4 +1,15 @@
 """
+Scraper per umbriatourism.it/eventi (versione 2)
+
+1. Apre l'elenco eventi e clicca "Load more results" finche' ce ne sono.
+2. Raccoglie il link di ogni evento.
+3. Apre la pagina di ogni evento e legge i campi "Where" (comune) e
+   "When" (date), piu' la tipologia (mercati, vino, musica, feste).
+4. Geocodifica ogni comune con Nominatim (OpenStreetMap) usando una cache.
+5. Salva tutto in eventi.json (letto dalla pagina web).
+
+Gli eventi gia' terminati vengono scartati.
+"""
 
 import json
 import re
@@ -17,16 +28,3 @@ GEOCODE_CACHE_FILE = BASE_DIR / "geocode_cache.json"
 EVENTS_URL = "https://www.umbriatourism.it/en/events"
 
 FALLITI = set()
-DEBUG_SNIPPETS = []  # per capire cosa non torna se nessun evento viene letto
-
-# Ordine importante: il primo gruppo che trova una parola chiave vince.
-CATEGORIA_KEYWORDS = [
-    ("vino", ["wine", "vino", "vini", "cantin", "calici", "degustazion", "vendemmia", "enoteca"]),
-    ("musica", ["concert", "music", "musica", "jazz", "opera"]),
-    ("mercati", ["market", "mercat", "fiera"]),
-]
-
-
-def categoria_da_testo(testo):
-    testo = (testo or "").lower()
-    for categoria, keywords in CATEGORIA_KEYWORDS:
