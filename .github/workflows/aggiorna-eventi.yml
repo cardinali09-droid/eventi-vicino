@@ -25,7 +25,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Raccogli gli eventi
-        run: python scraper.py
+        run: python -u scraper.py
 
       - name: Salva i dati aggiornati
         run: |
