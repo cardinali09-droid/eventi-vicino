@@ -25,7 +25,7 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Raccogli gli eventi
-        run: python -u raccogli_eventi.py
+        run: python -u raccogli_eventi_v4.py
 
       - name: Carica screenshot diagnostico
         if: always()
